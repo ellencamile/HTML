@@ -11,13 +11,14 @@
         h1{text-align: center;}
 
         .bloco1{background-color:coral; 
-        border:5px double blue;}
+        border:5px double blue; margin-bottom: 20px; width: 500px; padding:15px; box-sizing: border-box;}
         /* encadeamento de seletores*/
         .bloco1 p{color:whitesmoke;}
         /* acessando os filhos direto de bloco1 */
         .bloco1 > p{text-decoration: underline double; text-align: right;}
         
-        .bloco2 + p {border: 2px solid gray; text-transform: uppercase; margin-left:20px; padding-left:50px;}
+        .bloco2 > p{color: fuchsia}
+        .bloco2 + p {border: 7px double green; width:500px; box-sizing:border-box; padding:50px;}
 
     </style>
 
@@ -38,7 +39,7 @@
         <p>Curso técnico em eletrotécnica</p>
         <p>Curso de mecatrônica</p>
         <div>
-            <p>Os melhores cursos você encontrsa aqui</p>
+            <p>Os melhores cursos você encontra aqui</p>
         </div>
     </section>
     <p>Parágrafo após o bloco 2</p>
