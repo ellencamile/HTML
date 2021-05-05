@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lange="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0",
+    initial-scale=1.0 >
+    <title>Atividade CSS</title>
+
+    <style>
+        body{background-color: #cccc99; font-family: helvetica;}
+        h1{color: firebrick; letter-spacing: 20px;}
+
+        .bloco1, .bloco2{width: 800px; box-sizing: border-box;} /*Agrupadpres de seletores*/
+        .bloco1{border: 4px dotted firebrick; padding:20px 15px; color: white; font-size: 18px;}
+        #texto1{color: black; text-decoration: line-through;}
+        #texto2{color: black; text-decoration: underline;}
+
+        .bloco2{border: 2px solid black; border-left: 10px solid red; border-right: 5px double red; margin-top: 20px; color: green;}
+        .bloco2 >p:first-child{text-align: right;}
+    </style>
+
+</head>
+<body>
+    <h1>O que é tableless?</h1>
+    <section class="bloco1">
+        <p>
+            Tableless é uma forma de desenvolvimento de sites que não ultiliza tabelas para disposição de conteudo na página, pois defende que os <!--strike>CODIGOS HTML</strike> --> <spam id="texto1">CODIGOS HTML </spam> devem ser usados para o proposito que foram criados, sendo que tabelas foram criadas para a proposito que foram criadas <!--u>para exibir dados tabulares</u> --> <spam id="texto2"> exibir dados tabulares.</spam> sejam utilizadas para tabular dados e não para layout. Muitos navegadores travam ou exibem incorretamente formatações usando tabelas. 
+        </p>
+    </section>
+
+    <section class="bloco2">
+       <p>
+            Dentre as possiveis vantagens da metodologia, estão a diminuição do peso da maquina(na realidade, o conteudo da pagina é mostrado mais rapido, o que não significa que o peso da pagina seja menor - isso, é claro, sempre dependendo de como o HTML é feito) e melhora da acessibilidade - podem ser vistos em dispositivos moveis sem necessidade de versão especial e por deficientes visuais, embora sejam muitos os sites tableless que carregam atualmente esta segunda caracteristica.
+       </p>
+       <p>
+            HTML <br>
+            CSS  <br>
+            Tableless
+       </p>
+    </section>
+
+</body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista em HTML</title>
+
+    <style>
+        /* Formata a selecão de texto */
+        ::selection{background-color:blueviolet; color: black;}
+        body{background-color:#80cbc4; font-family: arial;}
+        h1{text-align: center; color: #004d40}
+
+        .Ingredientes, .Preparo{background-color: #00796b; color:#fff; height: 100%;}
+        h2{text-align: center; padding: 10px; background-color: #b2dfdb; color:#004d40}
+
+        ul li, ol li{font-size: 18px; line-height: 0.8cm;}
+    </style>
+
+</head>
+<body>
+    <h1>Receita de bolo simples</h1>
+    <section class = "Ingredientes">
+        <h2>Ingredientes para o bolo</h2>
+        <ul>
+            <li>2 xicaras de açucar</li>
+            <li>3 xicaras de farinha de trigo</li>
+            <li>4 colheres de manteiga</li>
+            <li>1/2 xicara de leite</li>
+            <li>Fermento</li>
+            <li>3 ovos
+                <ul>
+                    <li>Brancos</li>
+                    <li>Vermelhos</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class = "Preparo">
+        <h2>Modo de Preparo</h2>
+        <ol>
+            <li>Bata as claras em neve</li>
+            <li>Misturar as gemas, a manteiga e o açúca até obter uma massa homogênia</li>
+            <li>Acrescente o leite e a farinha de trigo aos poucos sem parar de  bater </li>
+            <li>Por último, adicione as claras em neve e o fermento</li>
+            <li>Despeje a massa em uma forma grande de furo central, untada e enfarinhada</li>
+            <li>Asse em fogo médio por 180 graus, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com uma faca, esta sai limpa</li>
+        </ol>
+    </section>
+</body>
